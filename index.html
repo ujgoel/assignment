@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- Create a list of candidates, showing their name, vote count, and buttons to add/subtract votes
+Create a small form which has an input box for candidate names and a SUBMIT button to add candidate names. 
+Writing a name in this box and clicking "SUBMIT" should add this candidate name in the list with vote count: 0
+Show the list in the order of descending number of votes -->
+
+
+<ul id="candidates-list">
+    <li>Ujjwal <span id="vote">0</span>
+        <button id="add">Add Votes</button>
+        <button id="sub">Subtract Votes</button>
+    </li> 
+</ul>
+<form action="">
+    <input type="text" placeholder="Name" id="new-name">
+    <input type="submit" id="add-can">
+</form>
+
+<script src="index.js"></script>
+</body>
+</html>
